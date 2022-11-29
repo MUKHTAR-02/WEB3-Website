@@ -1,0 +1,34 @@
+.playground{
+    background-color: #343a40;
+}
+.blockchain-intro, .WEB3-intro , h5{
+    color: black;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header-1{
+    text-shadow: 3px 3px #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #bf7a2b;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.space{
+    padding: 20px;
+}
+.header-2{
+    text-shadow: 3px 3px #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #bf7a2b;
+    padding-top: 60px;
+    text-align: center;
+}
+.navbar {
+  text-align: center; /* Centered text */
+  font-size: 30px; /* Big font size */
+  font-weight: bold;
+  position: fixed; /* Fixed position - sit on top of the page */
+  width: 100%; /* Full width */
+ }
