@@ -25,10 +25,14 @@
     padding-top: 60px;
     text-align: center;
 }
-.navbar {
-  text-align: center; /* Centered text */
-  font-size: 30px; /* Big font size */
+.navbar, .display-working {
+  /* text-align: center; Centered text */
+  /* font-size: 30px; Big font size */
   font-weight: bold;
   position: fixed; /* Fixed position - sit on top of the page */
   width: 100%; /* Full width */
+ }
+ .cute-robot{
+    padding-top: 40px;
+    padding-bottom: 20px;
  }
