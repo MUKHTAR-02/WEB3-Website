@@ -7,7 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <!-- css and js link -->
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="script.js"> -->
+
+    <!-- web3 link -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="script.js"></script>    
 
     <!-- fonts link -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
@@ -21,7 +29,7 @@
     <!-- *** this both can be used to style the navbar *** -->
     <!-- navbar navbar-dark bg-dark -->
     <!-- navbar navbar-expand-lg navbar-light bg-dark -->
-    
+    <div class="nav">
     <nav 
         class="navbar navbar-expand-lg navbar-light bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,11 +64,12 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             <li class="meta-mask-logo">
-                <a class="navbar-brand" href="under development.html" target="_blank"> <img src="meta mask final.webp" alt="" width="37" height="37"></a>
-            </li>  
+                <a onclick="Connect()" class="navbar-brand"> <img src="meta mask final.webp" alt="" width="37" height="37"></a>
+              </li>  
         </form>
         </div>
     </nav>
+  </div>
     <div class="playground">
         
         <div class="header-1">
@@ -155,8 +164,9 @@
     
       <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="widget subscribe no-box">
-    <h5 class="widget-title">Group<span></span></h5>
-    <p>Acropolis Blockchain Society. </p>
+    <h5 class="widget-title">Owner<span></span></h5>
+    <p> Decentralised </p>
+    <div class="thumb-content"><a href="#.">&nbsp;Our Privacy Policy</a></div>
     </div>
     </div>
     
@@ -197,7 +207,7 @@
     <input type="text" name="email" value="Email">
     <input name="uri" type="hidden" value="arabiantheme">
     <input name="loc" type="hidden" value="en_US">
-    <input class="submitbutton ripplelink" type="submit" value="Subscribe">
+    <input onclick="SubscribeButton()" class="submitbutton ripplelink" type="submit" value="Subscribe">
     </form>  
     </div>
     </div>
