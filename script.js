@@ -18,12 +18,13 @@ function SubscribeButton() {
   // window.alert("Welcome to our website");
   
 // testing
+swal("Good job!", "Subscribed succesfully.", "success");
 
-  var result = window.confirm('Are you sure?');
-    if (result === true) {
-      window.alert('Subscribed succesfully.');
-    } else { 
-      window.alert('You seem uncertain.');
-    }
+//   var result = window.confirm('Are you sure?');
+//     if (result === true) {
+//       window.alert('Subscribed succesfully.');
+//     } else { 
+//       window.alert('You seem uncertain.');
+//     }
 }
 
